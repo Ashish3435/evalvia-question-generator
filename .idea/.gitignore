@@ -1,3 +1,18 @@
+# Virtual Environments (Backend)
+.venv/
+backend/.venv/
+venv/
+__pycache__/
+
+# Dependencies & Builds (Frontend)
+node_modules/
+frontend/node_modules/
+dist/
+
+# Environment Variables & Secrets
+.env
+*.env
+
 # JetBrains IDE (.idea)
 .idea/
 /shelf/
@@ -6,3 +21,6 @@
 /queries/
 /dataSources/
 /dataSources.local.xml
+
+# System
+.DS_Store
